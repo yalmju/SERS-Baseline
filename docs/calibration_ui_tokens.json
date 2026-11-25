@@ -1,0 +1,279 @@
+{
+  "color": {
+    "bg": {
+      "app": {
+        "$type": "color",
+        "$value": "#F4F5F7"
+      },
+      "surface": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "table-header": {
+        "$type": "color",
+        "$value": "#F3F4F6"
+      },
+      "table-alt": {
+        "$type": "color",
+        "$value": "#FAFBFC"
+      },
+      "button-hover": {
+        "$type": "color",
+        "$value": "#F0F2F5"
+      }
+    },
+    "border": {
+      "card": {
+        "$type": "color",
+        "$value": "#E3E6EA"
+      },
+      "control": {
+        "$type": "color",
+        "$value": "#D0D4DA"
+      },
+      "grid": {
+        "$type": "color",
+        "$value": "#EEF0F3"
+      }
+    },
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": "#1F2937"
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "#111827"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "#6B7280"
+      },
+      "toggle": {
+        "$type": "color",
+        "$value": "#4B5563"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "#A0A6AE"
+      },
+      "on-accent": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      }
+    },
+    "accent": {
+      "default": {
+        "$type": "color",
+        "$value": "#2BA36B"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "#24905E"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "#A9D9C1"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "#EAF6F0"
+      }
+    },
+    "danger": {
+      "$type": "color",
+      "$value": "#C2410C"
+    },
+    "plot": {
+      "gray": {
+        "$type": "color",
+        "$value": "#7A7A7A"
+      },
+      "pink": {
+        "$type": "color",
+        "$value": "#F0507A"
+      },
+      "green": {
+        "$type": "color",
+        "$value": "#2BA36B"
+      },
+      "blue": {
+        "$type": "color",
+        "$value": "#2F6FD0"
+      }
+    },
+    "danger-subtle": {
+      "$type": "color",
+      "$value": "#FDF1EA"
+    }
+  },
+  "font": {
+    "family": {
+      "ui": {
+        "$type": "fontFamily",
+        "$value": [
+          "Segoe UI",
+          "Malgun Gothic"
+        ]
+      },
+      "plot": {
+        "$type": "fontFamily",
+        "$value": [
+          "Arial"
+        ]
+      }
+    }
+  },
+  "typography": {
+    "body": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.ui}",
+        "fontSize": "13.3px",
+        "fontWeight": 400
+      }
+    },
+    "caption": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.ui}",
+        "fontSize": "12px",
+        "fontWeight": 400
+      }
+    },
+    "section-title": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.ui}",
+        "fontSize": "14.7px",
+        "fontWeight": 600
+      }
+    },
+    "metric-value": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.ui}",
+        "fontSize": "20px",
+        "fontWeight": 600
+      }
+    },
+    "badge": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.ui}",
+        "fontSize": "13.3px",
+        "fontWeight": 700
+      }
+    },
+    "button-primary": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.ui}",
+        "fontSize": "13.3px",
+        "fontWeight": 600
+      }
+    }
+  },
+  "radius": {
+    "card": {
+      "$type": "dimension",
+      "$value": "10px"
+    },
+    "tab-pane": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "button": {
+      "$type": "dimension",
+      "$value": "6px"
+    },
+    "table": {
+      "$type": "dimension",
+      "$value": "6px"
+    },
+    "tab": {
+      "$type": "dimension",
+      "$value": "6px"
+    },
+    "input": {
+      "$type": "dimension",
+      "$value": "5px"
+    },
+    "badge": {
+      "$type": "dimension",
+      "$value": "10px"
+    }
+  },
+  "space": {
+    "card-x": {
+      "$type": "dimension",
+      "$value": "14px"
+    },
+    "card-top": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "card-bottom": {
+      "$type": "dimension",
+      "$value": "14px"
+    },
+    "metric-x": {
+      "$type": "dimension",
+      "$value": "14px"
+    },
+    "metric-y": {
+      "$type": "dimension",
+      "$value": "10px"
+    },
+    "section-body": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "form-column": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "stack-side": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "stack-results": {
+      "$type": "dimension",
+      "$value": "10px"
+    },
+    "metric-gap": {
+      "$type": "dimension",
+      "$value": "10px"
+    }
+  },
+  "size": {
+    "window-w": {
+      "$type": "dimension",
+      "$value": "1400px"
+    },
+    "window-h": {
+      "$type": "dimension",
+      "$value": "880px"
+    },
+    "side-panel-w": {
+      "$type": "dimension",
+      "$value": "440px"
+    },
+    "metric-card-h": {
+      "$type": "dimension",
+      "$value": "85px"
+    },
+    "badge": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "file-table-min-h": {
+      "$type": "dimension",
+      "$value": "200px"
+    },
+    "toolbar-icon": {
+      "$type": "dimension",
+      "$value": "18px"
+    }
+  }
+}
